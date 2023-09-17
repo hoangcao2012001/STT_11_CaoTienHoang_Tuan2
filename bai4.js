@@ -1,4 +1,4 @@
-var url = "http://localhost:8080/api/v1/users";
+var url = "http://localhost:8080/api/user";
 var xhr = new XMLHttpRequest();
 xhr.open("GET", url + "/1", true);
 xhr.onload = function () {
